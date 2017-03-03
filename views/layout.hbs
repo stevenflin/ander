@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ander</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" href="/stylesheets/font-awesome-4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+  	<div class='nav-bar row'>
+  		<a href='/'><div class='col-xs-6 nav-home'>
+  			ANDER
+  		</div></a>
+  		<a href='/about' class='col-xs-2 col-xs-offset-1 nav-btn' id='list'>
+  			How It Works
+  		</a>
+  		<a href='/list' class='col-xs-1 nav-btn'>
+	  		List A Car
+  		</a>
+  		<div class='col-xs-1 nav-btn' data-toggle='modal' data-target='#register'>
+  			Sign Up
+  		</div>
+  		<div class='col-xs-1 nav-btn' data-toggle='modal' data-target='#login'>
+  			Log In
+  		</div>
+  	</div>
+    {{{body}}}
+    <div class='footer'>
+      <div class='col-xs-3'>
+        <h4>Learn More</h4>
+        <p>How We Work</p>
+        <p>Our Locations</p>
+        <p>Insurance Policy</p>
+        <p>Frequently Asked Questions</p>
+      </div>
+      <div class='col-xs-3'>
+        <h4>Our Services</h4>
+        <p>Rent a car</p>
+        <p>List your car</p>
+      </div>
+      <div class='col-xs-3 col-xs-offset-3'>
+        <h4>Contact Us</h4>
+        <p>Email: contact@ander.com</p>
+        <p>Tel: 1-800-123-4567</p>
+        <p>44 West 4th St<br/>New York, NY 10003</p>
+        <p>Follow Us:<br/>
+        <i class='fa fa-facebook-square'></i>
+        <i class='fa fa-instagram'></i>
+        <i class='fa fa-twitter'></i>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!-- Modal -->
+<div id="login" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+	  <form class='login-form'>
+		<input class='login' type='text' name='Email' placeholder='Email Address' />
+		<input class='login' type='text' name='Password' placeholder='Password' />
+		<input class='login' type='Submit' value='Log In' />
+	  </form>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div id="register" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+	  <form class='register-form'>
+		<input class='register' type='text' name='Email' placeholder='Email Address' />
+		<input class='register' type='text' name='Fname' placeholder='First Name' />
+		<input class='register' type='text' name='Lname' placeholder='Last Name' />
+		<input class='register' type='text' name='Password' placeholder='Password' />
+		<input class='register' type='text' name='ConfirmPW' placeholder='Confirm Password' />
+		<input class='register' type='Submit' value='Sign Up' />
+	  </form>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>

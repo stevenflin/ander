@@ -1,0 +1,202 @@
+body {
+	margin: 0;
+}
+
+input {
+	border: none;
+}
+
+/* Navigation Bar */
+.nav-bar {
+	padding: 20px;
+	font-family: "Century Gothic", Helvetica, Arial, sans-serif;
+}
+
+.nav-home {
+	font-size: 30px;
+	color: #34a1b5;
+	text-decoration: none;
+}
+
+.nav-btn {
+	color: black;
+	text-align: center;
+	font-size: 15px;
+}
+
+/* Login */
+
+.login-form {
+	text-align: center;
+}
+
+.login {
+	width: 90%;
+	height: 50px;
+	margin: 2px;
+	border: 1px solid lightgrey;
+}
+
+.login:last-child {
+	background-color: #34a1b5;
+	color: white;
+	border: none;
+}
+
+/* Sign Up */
+
+.register-form {
+	text-align: center;
+}
+
+.register {
+	width: 90%;
+	height: 50px;
+	margin: 2px;
+	border: 1px solid lightgrey;
+}
+
+.register:last-child {
+	background-color: #34a1b5;
+	color: white;
+	border: none;
+}
+
+/* Home */
+
+#phrase1 {
+	color: #34a1b5;
+	font-weight: bold;
+	font-size: 350%;
+}
+
+#phrase2 {
+	font-weight: 300;
+	margin: 10px 0;
+	color: #434a4c;
+	font-size: 350%;
+}
+
+.rent-form {
+	border: 1px solid lightgrey;
+	border-radius: 1px;
+	margin: 20px;
+	padding: 20px;
+}
+
+.rent-btn {
+	background-color: #34a1b5;
+	color: white;
+	width: 100%;
+	padding: 12px;
+	text-align: center;
+}
+
+.list-btn {
+	background-color: #434a4c;
+	color: white;
+	width: 100%;
+	padding: 12px;
+	text-align: center;
+}
+
+.form-box {
+	border-right: 1px solid lightgrey;
+	padding: 0;
+}
+
+.instructions {
+	margin-top: 25px;
+}
+
+.step {
+	text-align: center;
+}
+
+.step-instruction {
+	font-family: "Century Gothic", Helvetica, Arial, sans-serif;
+	font-size: 25px;
+}
+
+.step-instruction2 {
+	font-family: "Century Gothic", Helvetica, Arial, sans-serif;
+	color: grey;
+	font-size: 15px;	
+}
+
+.footer {
+	font-family: "Century Gothic", Helvetica, Arial, sans-serif;
+	width: 100%;
+	background-color: black;
+	height: 300px;
+	padding: 75px;
+	color: white;
+	margin-top: 25px;
+}
+
+.listers {
+	font-family: "Century Gothic", Helvetica, Arial, sans-serif;
+	padding: 20px 100px;
+}
+
+.lister-header {
+	font-size: 200%;
+}
+
+.list-step-main {
+	font-size: 150%;
+	margin: 25px 0 15px 0;
+}
+
+.list-step {
+	font-size:125%;
+}
+
+.lister-icon {
+	font-size: 500%;
+	text-align: center;
+}
+
+.renters {
+	font-family: "Century Gothic", Helvetica, Arial, sans-serif;
+	padding: 20px 100px;
+	background-color: #f1f1f1;
+}
+
+.locations {
+	font-family: "Century Gothic", Helvetica, Arial, sans-serif;
+	padding: 20px 100px;	
+}
+
+.airport {
+	padding: 25px;
+}
+
+.airport-name {
+	font-size: 150%;
+	font-weight: bold;
+}
+
+.list-form {
+	padding: 0 200px;
+}
+
+.list-field {
+	padding: 15px;
+	border: 1px solid lightgrey;
+}
+
+.list-btn2 {
+	background-color: #34a1b5;
+	color: white;
+	padding: 12px;
+	text-align: center;	
+}
+
+.photo-filler {
+	padding: 100px;
+	border: 1px solid lightgrey;
+	text-align: center;
+	font-family: "Century Gothic", Helvetica, Arial, sans-serif;
+	color: lightgrey;
+}
